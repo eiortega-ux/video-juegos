@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Permite mostrar correctamente los acentos y caracteres especiales como la letra Ñ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ajusta el area de visualización al ancho de la pantalla-->
+    <title>Pagina de Erick</title>
+</head>
+
+
+<body>
+    <!--contenido de la pagina, titulo principal de la pagina-->
+    <!--Style aplica un estilo CSS y color del encabezado-->
+    <h1 style="color:red">Bienvenido a la pagina de erick</h1>
+    <!--este es un parraafo de ejemplo-->
+    <p>Esta es una simple pagina creada con html.</p>
+    <!--H2 sirbe para crear un subtitulo -->
+    <h2>me gusta mucho la clase del profe Joaquin</h2>
+    <!--H3 se puede organizar un subtema dentro de H2 -->
+    <h3>Me gustan mucho los taquitos</h3>
+    <!--H4 se uriliza para subdividir aun mas el contenido en detalles menores -->
+    <h4>Me gusta mucho la musica y ver pelis con mi novia</h4>
+    <!-- H5 se usa para agregar detalles adicionales o información especifica -->
+    <h5>Me gustan mucho los corridos</h5>
+    <!--H6 se utiliza para notas o detalles muy especificos -->
+    <h6> mi pasatiempo favorito es jugar FC27 con mi hermano</h6>
+
+    <!--carrusel-->
+    <section class="mt-4">
+        <h2 class="text-primary">mis gustos en immagenes</h2>
+        <!-- el carrusel crea el componente y slide agrega la transicion
+         el id permite que las flechas encuentren el carrusel-->
+         <div id="carrusel" class="carousel slide bg-dark">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                    src="img/videojuegos.png"
+                    class="d-block w-100"
+                    width="300"
+                    alt="imagen de programacion">
+                    <div class="carousel item">
+                         <img
+                         src="img/fc27.jpg"
+                         class="d-block w-100"
+                         width="300"
+                         alt="imagen de videojuegops">
+                         <div class="carousel-item">
+                            <img
+                            src="img/gta 6.png"
+                            class="d-block w-100"
+                            width="300"
+                            alt="imagen de videojuegos">
+                         </div>
+                    </div> 
+                </div>
+            </div>
+         </div>
+    </section>
+
+<button class="carousel-control-prev"
+type="button"
+data-bs-target="#carrusel"
+data-bs-slide="prev"
+aria-label="imagen anterior"></button>
+
+
+
+
+    <!-- Tarjetas -->
+<section class="mt-4">
+    <h2 class="text-primary">Acerca de mis gustos</h2>
+
+    <!-- Contenedor de la tarjeta -->
+    <div class="card mb-4">
+        <!-- Contenido de la tarjeta -->
+        <div class="card-body">
+            <h5 class="card-title">Programación</h5>
+            <p class="card-text">Me gusta mucho la programación y aprender cosas nuevas.</p>
+
+            <!-- Enlace a la tabla de mis planes -->
+            <a href="#planes" class="btn btn-primary">Conoce mis planes</a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== TARJETAS ========== -->
+     <section class="mt-4"> 
+        <h2 class="text-primary"> Acerca de mis gustos </h2>
+        <!-- Tarjeta básica card crea el contenedor -->
+         <div class="card mb-4">
+            <!-- card-body crea el contenido de la tarjeta -->
+             <div class="card-body">
+                <h5 class="card-title"> Programación </h5>
+                <p class="card-text"> Me gusta mucho la comida 
+                    y el desarrollo personal. </p>
+                    <!-- este enlace lleva a la tabla de mis planes -->  
+                <a href="#planes" class="btn btn-primary"> Conoce mis planes </a>
+            </div>
+        </div>
+        <!-- Tarjeta con Imagen de GymShark -->
+         <div class="card mb4">
+
+    
+    <!-- src es la ruta de la imagen, alt describe la imagen
+       width="300" le da un ancho de 300 pixeles a la imagen -->
+          <img src="https://www.aimeespinks.com/wp-content/uploads/2020/12/AdvertisingPhotography_Gymshark_Logo_009.jpg"
+          alt="Imagen de GymShark" 
+          width="300"
+          class="img-fluid">
+
+        <div class="card-body">
+            <h3 class="card-title">Gym</h3>
+            <p class="card-text">Me gusta mucho el gym y me gustaria entrenar en GymShark.</p>
+            <a href="#planes" class="btn btn-secondary">Conoce mis planes</a>
+        </div>
+    </div>
+    <!-- Trajeta con Imagen 
+         Usamos la Imagen de la Hamburguesa -->
+    <div class="card mb-4">
+        <img 
+            src="img/videojuegos.png"
+            alt="Imagen de videojuegos" 
+            width="300"
+            class="img-fluid">
+       <div class="card-body">
+           <h3 class="card-title">videojuegos</h3>
+           <p class="card-text">Me gustan los videojuegos.</p>
+           <a href="#top comidas" class="btn btn-success"> Conoce mis gustos </a>
+        </div>
+    </div> 
+    <!-- Tarjeta con Imagen 
+         Usamos la de la NFL -->
+    <div class="card mb-4">              
+        <div class="card-header">
+            Foto iconica del jugador 54
+        </div>    
+        <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLOvKXZJXmYlJXBXHkgZup3EqHxCQZXJ07x3RF893KQ&s=10"
+            alt="Imagen de NFL" 
+            width="300"
+            class="img-fluid">
+        <div class="card-body">
+            <h3 class="card-title"> The Best </h3> 
+            <p class="card-text"> mi equipo favorito domina la liga </p>
+                <a href="#showtime" class="btn btn-danger"> Conoce que veo en la TV </a>
+        </div>
+    </div>
+   
+
+     </div>
+    <!-- usamos la imagen de videojuegos-->
+     <div class="card mb-4">
+        <img
+        src="img/videojuegos.png"
+        alt="imagen de videojuegos"
+        width="300"
+        class="img-fluid">
+        <div class="card-body">
+            <h3 class="card-title">videojuegos</h3>
+            <p class="card-text">me gusta mucho jugar videojuegos y quiero jugar GTA</p>
+            <a href="#pasatiempos" class="btn btn-success"> conoce mis pasatiempos</a>
+
+        </div>
+     </div>
+
+     <!--tarjeta con imagen, USAMOS OTRA IMAGEN-->
+     <div class="card mb-4">
+        <div class="card header">
+</div>
+<img
+src="img/videojuegos.png"
+alt="imagen de videojuegops"
+width="400"
+class="img-fluid">
+<div class="card-body">
+    <h3 class="card-title">videojuegos</h3>
+    <p class="card-text"> me gustan mucho los videojuegos</p>
+    <a href="#pasatiempos" class="btn btn-danger">conoce mis pasatiempos</a>
+</div>
+     </div>
+     
+
+
+
+        >
+    
+    <!-- src es la ruta de la imagen, alt describe la imagen
+     width="300" le da un ancho de 300 pixeles a la imagen -->
+     <img src="https://www.slashfilm.com/img/gallery/pixar-marvel-disney-hoping-add-characters/intro-import.jpg" width="300">
+     <br>
+     <img src="img/videojuegos.png"
+     alt="imagen de videojuegos" width="300">
+
+
+     <!--Lista no ordenada-->
+     <section>
+        <h2> cosas que hago en mi tiempo libre</h2>
+        <!-- u1 crea una lista no ordenada, li crea un elemento de la lista -->
+         <u1>
+            <l1> jugar videojuegos</l1>
+            <li> ver peliculas</li>
+            <l1> ver a mi novia</l1>
+            <l1> Ir al gym</l1>
+         </u1>
+         
+     </section>
+
+     <!--Lista ordenada-->
+     <section>
+        <h2>Mis comidas favoritas</h2>
+        <!-- ol crea una lista ordenada, li crea un elemento de la lista-->
+         <ol>
+            <li> Tacos </li>
+            <li> pizza </li>
+            <li> boneless</li>
+         </ol>
+
+
+     </section>
+     <!--tabla-->
+     <h2>mis planes para desconectarme</h2>
+<table border="1">
+    <!--tr crea una fila de la tabla, th crea un encabezado de la tabla-->
+    <tr>
+        <th>Tiempo disponible</th>
+        <th>Planes</th>
+        <th> Qué necesito</th>
+    </tr>
+    <tr>
+        <td> 45 minutos </td>
+        <td> jugar un partido </td>
+        <td> Un control de xbox y un xbox</td>
+
+    </tr>
+     <tr>
+        <td> 15 minutos </td>
+        <td> escuchar musica </td>
+        <td> audifonos y una playlist</td>
+
+    </tr>
+     <tr>
+        <td> 90 minutos </td>
+        <td> Ver una pelicula </td>
+        <td> Una tele y palomitas </td>
+
+    </tr>
+</table>
+
+
+    <br>
+    <img src="https://tse4.mm.bing.net/th/id/OIP.oJWeqERY2dOSc_quD3V-iwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+<!---ajusta la visualización de la pagina-->
+<title> pagina de erick / programación y lucha libre</title>
+<!--resume el contenid de la pagina, google puede usarlo en sus contenidos de busqueda-->
+<meta name="description"    
+content="pagina de erick, donde comparto mi dia a dia">
+
+<!--name "keywords" ayuda a los motores de busqueda a identificar el contenido de la pagina-->
+<meta name="keywords"
+content="erick, programación, pareja, videojuegos, musica">
+
+<!--name = "author" indica el author de la pagina-->
+<meta name="author" content="Erick Israel Ortega Robles">
+
+<!--aviso de contenido propio-->
+<meta name="copyright" content=" 2026 Erick Israel Ortega Robles. todos los derechos reservados.">
+
+
+<!--alerta-->
+<div calss="alert alert-info" role="alert">
+    bienvenido, aqui comparto mis gustos por la programación, la comida y el cine
+</div>
+
+<!--botones para navegar-->
+<!--href indica la ruta del archivo al que se quiere navegar id="pasatiempos"-->
+<nav class="mb-4" aria-label="secciones de la pagina"></nav>
+<a href="pasatiempos" class="btn btn-primary mb-2">
+mis pasatiempos 
+</a>
+<a href="comidas" class="btn btn-warning mb-2">
+mis planes para conectarme</a>
+
+<!--botones para naavegar-->
+<!--href indica la ruta del archivo L QUE SE QUIERE NAVEGAR
+ID= "P"ASATIEMPOS"-->
+<nav class="navbar navbar-expand-lg bg-light mb-4"
+aria-label="secciones de la pagina">
+<div class="container-fluid">
+    <a href="#pasastiempos" class="btn btn-primary"> mis pasatiempos</a>
+    <a href="#comidas" class="btn btn-succes mb-2"> mis comidas favoritas</a>
+    <a href="#planes" class="btn btn-warming mb-2"></a>
+
+    <!--href=#inicio lleva al elemnto con id="inicio"-->
+    <a class="navbar-brand" href="#inicio"> pagina de erick</a>
+
+    <!-- #menu debe de coincidir con el id menu-->
+     <button class="navbar-toggler">
+     type="button"
+     data-bs-toggle="collapse"
+     data-bs-target="#menu"
+     aria-controls="menu"
+     aria-expanded="false"
+     aria-label="abrir o cerrar menu">
+     <span class="navbar-toggler-icon"></span>
+
+</button>
+</div>
+</nav>
+</body>
+</html>
